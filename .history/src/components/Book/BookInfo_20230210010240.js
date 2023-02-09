@@ -7,7 +7,7 @@ const PostInfo = ({ data }) => {
     <Fragment>
       <h2>{ t('details')}</h2>
       {data ? (
-        <div >
+        <div '>
           <p className='fw-bold'>{t('Title')} : {data.title}</p>
           <p className='fst-italic'>{t('price')}: {data.price}</p>
           <p className='fst-italic'> {t('Auth')}  : {data.auther}</p>

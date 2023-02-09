@@ -5,12 +5,12 @@ const PostInfo = ({ data }) => {
 
   return (
     <Fragment>
-      <h2>{ t('details')}</h2>
+      <h2>Book Details</h2>
       {data ? (
-        <div >
-          <p className='fw-bold'>{t('Title')} : {data.title}</p>
+        <div dir='rtl'>
+          <p className='fw-bold'>{t('Title')}: {data.title}</p>
           <p className='fst-italic'>{t('price')}: {data.price}</p>
-          <p className='fst-italic'> {t('Auth')}  : {data.auther}</p>
+          <p className='fst-italic'>{t('Auth')} : {data.auther}</p>
 
           <p className='fw-light'>{t("Desc")}: {data.description}</p>
         </div>
